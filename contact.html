@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact LOL</title>
+        <link href="favicon.jpg" rel="shortcut icon" type="image/jpg">
+        <meta name="author" content="Ragul Adhithya M">
+        <meta name="description" content="Land of Lexicons - Vocab Enrichment Club of Kumaraguru Institutions">
+        <link rel="stylesheet" href="https://unicons.iconscout.com/release/v2.1.6/css/unicons.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800;900&display=swap"
+            rel="stylesheet">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <style>
+            body { background-image: url("./images/bg-texture.png") }
+        </style>
+    </head>
+    <body oncontextmenu="return false">
+        <nav>
+        <div class="container nav__container">
+            <a href="index.html">
+                <h4>Land of Lexicons</h4>
+            </a>
+            <ul class="nav__menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog/index.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <button id="open-menu-btn"><i class="uil uil-bars"></i></button>
+            <button id="close-menu-btn"><i class="uil uil-multiply"></i></button>
+        </div>
+    </nav>
+        <section class="contact">
+            <div class="container contact__container">
+                <aside class="contact__aside">
+                    <div class="aside__image">
+                        <img src="./images/contact.svg">
+                    </div>
+                    <h2>Contact Us</h2>
+                    <p>
+                        Get in touch with us. If you have any queries fill out the form
+                    </p>
+                    <ul class="contact__details">
+                        <li>
+                            <i class="uil uil-envelope"></i>
+                            <h5><a href="mailto:landoflexicons@kct.ac.in" target="_blank">landoflexicons@kct.ac.in</a></h5>
+                        </li>
+                        <li>
+                            <i class="uil uil-location-point"></i>
+                            <h5>Coimbatore, India</h5>
+                        </li>
+                    </ul>
+                    <ul class="contact__socials">
+                        <li>
+                            <a href="https://www.instagram.com/landoflexicons" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.linkedin.com/company/landoflexicons" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                        </li>
+                        <li>
+                            <a href="https://www.github.com/landoflexicons" target="_blank"><i class="uil uil-github"></i></a>
+                        </li>
+                    </ul>
+                </aside>
+                <form action="https://formspree.io/f/mrgvbjqk" method="POST" class="contact__form" id="contactForm">
+                    <div class="form__name">
+                        <input type="text" name="First Name" placeholder="First Name" required>
+                        <input type="text" name="Last Name" placeholder="Last Name" required>
+                    </div>
+                    <input type="email" name="Email Address" placeholder="Your Email Address" required>
+                    <textarea name="Message" rows="7" placeholder="Message..." required></textarea>
+                    <button type="submit" class="btn btn-primary">Send Message</button>
+                </form>
+            </div>
+        </section>
+        <script>
+        function resetForm(){
+          document.getElementById("contactForm").reset();
+        }
+
+        window.onload = resetForm;
+        </script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <footer> 
+        <div class="container footer__container">
+            <div class="footer__2">
+                <a href="index.html" class="footer__logo">
+                    <h4>Land of Lexicons</h4>
+                </a>
+                <p>
+                    A Vocab Enrichment Club of Kumaraguru Institutions
+                </p>
+            </div>
+
+            <div class="footer__3">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="blog/index.html">Blogs</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__4">
+                <h4><a href="contact.html">Contact Us</a></h4>
+                <div>
+                    <p>landoflexicons@kct.ac.in</p>
+                </div>
+
+                <ul class="footer__socials">
+                    <li>
+                    <a href="https://www.instagram.com/landoflexicons" target="_blank"><i class="uil uil-instagram-alt"></i></a>
+                    </li>
+                    <li>
+                    <a href="https://www.linkedin.com/company/landoflexicons" target="_blank"><i class="uil uil-linkedin-alt"></i></a>
+                    </li>
+                    <li>
+                    <a href="https://www.github.com/landoflexicons" target="_blank"><i class="uil uil-github"></i></a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        <div class="footer__copyright">
+
+            <small>Copyright &copy; LOL Software</small>
+            <br>
+            <a href="">Theme by <a href="https://portfolio2.raguladhithya.in/" target="_blank" style="color: yellow;">Ragul Adhithya M</a>
+        </div>
+    </footer>
+
+
+
+        <script src="js/main.js"></script>
+
+    </body>
+
+</html>
